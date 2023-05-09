@@ -3,7 +3,7 @@ version: '3'
 services:
   ubuntu:
     container_name: ubuntu
-    build: .
+    build: Dockerfile
     command: tail -f /dev/null
     volumes:
       - ./ubuntu:/home 
